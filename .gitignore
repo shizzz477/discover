@@ -2,3 +2,4 @@
 *.nmap
 *.xml
 .idea
+*.pyc
