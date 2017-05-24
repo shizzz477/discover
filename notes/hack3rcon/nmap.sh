@@ -48,7 +48,7 @@ case $choice in
      nmap -Pn -n -T4 --open -sV --stats-every 10s -iL $location -oN scan.txt
      ;;
 
-     3) ./main.sh ;;
+     3) main.sh ;;
 
      *) echo; echo "Invalid choice."; echo
 esac
