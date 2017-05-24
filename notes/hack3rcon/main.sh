@@ -19,10 +19,10 @@ read choice
 echo $choice
 
 case $choice in
-     1) ./recon-domain.sh ;;
-     2) ./recon-people.sh ;;
-     3) ./open-list.sh ;;
-     4) ./robots.sh ;;
-     5) ./nmap.sh ;;
+     1) recon-domain.sh ;;
+     2) recon-people.sh ;;
+     3) open-list.sh ;;
+     4) robots.sh ;;
+     5) nmap.sh ;;
      *) echo; echo "Invalid choice."; echo
 esac
