@@ -27,7 +27,7 @@ if [ -d /pentest ]; then
 fi
 
 echo -e "\e[1;34mUpdating Kali.\e[0m"
-apt-get update ; apt-get -y upgrade ; apt-get -y dist-upgrade ; apt-get -y autoremove ; apt-get -y autoclean ; echo
+apt-get update #; apt-get -y upgrade ; apt-get -y dist-upgrade ; apt-get -y autoremove ; apt-get -y autoclean ; echo
 
 if [ -d /opt/BloodHound/.git ]; then
      echo -e "\e[1;34mUpdating BloodHound.\e[0m"
